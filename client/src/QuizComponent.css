@@ -1,0 +1,94 @@
+/* Quiz Results */
+.quiz-score {
+  background-color: #f0f0f0; /* Light background color */
+  color: #333; /* Dark text color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quiz-score p {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.quiz-score a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s;
+}
+
+.quiz-score a:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Quiz Container */
+.quiz-container {
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark text color */
+  padding: 20px;
+}
+
+/* Quiz Card */
+.quiz-card {
+  background-color: #fff; /* White card background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Quiz Question */
+.question-text {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Quiz Options */
+.option-card {
+  padding: 10px;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-card:hover {
+  background-color: #f5f5f5; /* Hover background color */
+}
+
+.option-label {
+  display: flex;
+  align-items: center;
+}
+
+/* Selected option */
+.option-card.selected {
+  background-color: #3498db; /* Selected option background color */
+  color: white;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #2980b9; /* Hovered button background color */
+}

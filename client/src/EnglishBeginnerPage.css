@@ -1,0 +1,45 @@
+/* EnglishBeginnerPage.css */
+
+.lessons-container {
+    display: flex;
+  }
+  
+  .lesson-list {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .lesson-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .lesson-item:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .selected {
+    background-color: #ddd;
+  }
+  
+  .lesson-content {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  /* Optional: Add styles for selected lesson content */
+  .lesson-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .lesson-content p {
+    font-size: 1.2rem;
+  }
+  .body-background{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+  
